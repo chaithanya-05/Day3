@@ -66,7 +66,7 @@ int main() {
 
     printf("Enter number of passengers: ");
     scanf("%d", &n);
-    getchar();  // Consume newline left in the buffer
+    getchar();  
 
     addPassengers(passengers, n);
     sortPassengers(passengers, n);
